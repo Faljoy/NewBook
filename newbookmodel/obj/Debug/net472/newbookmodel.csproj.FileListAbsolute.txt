@@ -1,0 +1,17 @@
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\bin\Debug\net472\NUnit3.TestAdapter.dll
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\bin\Debug\net472\NUnit3.TestAdapter.pdb
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\bin\Debug\net472\nunit.engine.dll
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\bin\Debug\net472\nunit.engine.api.dll
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\bin\Debug\net472\newbookmodel.dll
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\bin\Debug\net472\newbookmodel.pdb
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\bin\Debug\net472\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\bin\Debug\net472\nunit.framework.dll
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\bin\Debug\net472\WebDriver.dll
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\obj\Debug\net472\newbookmodel.csprojAssemblyReference.cache
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\obj\Debug\net472\newbookmodel.AssemblyInfoInputs.cache
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\obj\Debug\net472\newbookmodel.AssemblyInfo.cs
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\obj\Debug\net472\newbookmodel.csproj.CoreCompileInputs.cache
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\obj\Debug\net472\newbookmodel.csproj.CopyComplete
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\obj\Debug\net472\newbookmodel.dll
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\obj\Debug\net472\newbookmodel.pdb
+D:\курсы\дз\auto 14\newbookmodel\newbookmodel\bin\Debug\net472\SeleniumExtras.WaitHelpers.dll
