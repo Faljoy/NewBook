@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KawRKoGS337eaqwwSzZJ4G+bOcnJm9kxyibo8klQq3mAbjB7xW8S5hIwS+fOC8xJwMi0cLSYwGV+rCLS8LCx6Q==",
+  "dgSpecHash": "97vlVkMWYaED85zcIjE3TV2st4YSNEchxE+uAkWk9cVsuVmK0+YZia3RzJc3TFnqDof8EtQrXRdTo22Of2f5Kg==",
   "success": true,
-  "projectFilePath": "D:\\курсы\\дз\\auto 14\\newbookmodel\\newbookmodel\\newbookmodel.csproj",
+  "projectFilePath": "D:\\курсы\\дз\\HW14\\newbookmodel\\newbookmodel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Legion\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\Legion\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

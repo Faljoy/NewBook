@@ -798,9 +798,48 @@ namespace newbookmodel
             IWebElement buttonSignIn = driver.FindElement(By.CssSelector("[class = 'SignInForm__submitButton--cUdOV Button__button---rQSB Button__" +
                 "themeSealBrown--3arN6 Button__sizeMedium--uLCYD Button__fontSmall--1EPi5 Button__withTranslate--1qGAH']"));
             buttonSignIn.Click();
-
             Assert.Pass();
         }
+
+        [Test]
+        public void AddACardIndustry()
+        {
+            DateTime dataTime = new DateTime();
+            dataTime = DateTime.Now;
+            string name = dataTime.ToString();
+            name = name.Replace(".", "");
+            name = name.Replace(" ", "");
+            name = name.Replace(":", "");
+            name = "ind" + name;
+            IWebElement start = driver.FindElement(By.CssSelector("[class='Navbar__navLink--3lL7S Navbar__navLinkSingle--3x6Lx Navbar__login--28b35 ']"));
+            start.Click();
+            IWebElement buttonSignUp = driver.FindElement(By.CssSelector("[class='Input__input--_88SI Input__themeNewbook--1IRjd Input__fontRegular--2SStp']"));
+            buttonSignUp.SendKeys("596af73a33@emailnax.com");
+            IWebElement buttonPasword = driver.FindElement(By.CssSelector("[name = 'password']"));
+            buttonPasword.SendKeys("1234567890Qe_d");
+            IWebElement buttonSignIn = driver.FindElement(By.CssSelector("[class = 'SignInForm__submitButton--cUdOV Button__button---rQSB Button__themeSealBrown--" +
+                "3arN6 Button__sizeMedium--uLCYD Button__fontSmall--1EPi5 Button__withTranslate--1qGAH']"));
+            buttonSignIn.Click();
+            IWebElement buttonAcaunt = driver.FindElement(By.CssSelector("[class='MainHeader__staticItemAvatar--3LwWp MainHeader__staticItem--2UY1x ']"));
+            buttonAcaunt.Click();
+            IWebElement buttonFirstName = driver.FindElement(By.CssSelector("input[placeholder=\"Full name\"]"));
+            buttonFirstName.SendKeys("Di DI DI");
+            driver.SwitchTo().Frame(driver.FindElement(By.CssSelector("iframe[title=\"Secure card payment input frame\"]")));
+
+            IWebElement buttonNumderCard = driver.FindElement(By.CssSelector("input[name=\"cardnumber\"]"));
+            buttonNumderCard.SendKeys("5112558183357244");
+            IWebElement buttonNumderDate = driver.FindElement(By.CssSelector("input[placeholder=\"MM / YY\"]"));
+            buttonNumderDate.SendKeys("05/25");
+            IWebElement buttonNumberCVV = driver.FindElement(By.CssSelector("input[placeholder=\"CVC\"]"));
+            buttonNumderDate.SendKeys("5572");
+            driver.SwitchTo().DefaultContent();
+            IWebElement buttonSaveChange = driver.FindElement(By.XPath("/html/body/nb-app/ng-component/nb-internal-layout/common-layout/section/div/ng-" +
+                "component/nb-account-info-edit/common-border/div[4]/div/nb-stripe-card-bind-container/nb-stripe-card-bind/div/form/common-button-deprecated/button"));
+            buttonSaveChange.Click();
+            Assert.Pass();
+        }
+
+
 
         [TearDown]
         public void After()

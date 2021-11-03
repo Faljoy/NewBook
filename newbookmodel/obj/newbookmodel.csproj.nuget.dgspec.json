@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\курсы\\дз\\auto 14\\newbookmodel\\newbookmodel\\newbookmodel.csproj": {}
+    "D:\\курсы\\дз\\HW14\\newbookmodel\\newbookmodel.csproj": {}
   },
   "projects": {
-    "D:\\курсы\\дз\\auto 14\\newbookmodel\\newbookmodel\\newbookmodel.csproj": {
+    "D:\\курсы\\дз\\HW14\\newbookmodel\\newbookmodel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\курсы\\дз\\auto 14\\newbookmodel\\newbookmodel\\newbookmodel.csproj",
+        "projectUniqueName": "D:\\курсы\\дз\\HW14\\newbookmodel\\newbookmodel.csproj",
         "projectName": "newbookmodel",
-        "projectPath": "D:\\курсы\\дз\\auto 14\\newbookmodel\\newbookmodel\\newbookmodel.csproj",
+        "projectPath": "D:\\курсы\\дз\\HW14\\newbookmodel\\newbookmodel.csproj",
         "packagesPath": "C:\\Users\\Legion\\.nuget\\packages\\",
-        "outputPath": "D:\\курсы\\дз\\auto 14\\newbookmodel\\newbookmodel\\obj\\",
+        "outputPath": "D:\\курсы\\дз\\HW14\\newbookmodel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Legion\\AppData\\Roaming\\NuGet\\NuGet.Config",
